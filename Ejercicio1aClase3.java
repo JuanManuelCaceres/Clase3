@@ -20,22 +20,22 @@ public class Ejercicio1aClase3 {
         /*for (int i = 0; i < texto.length(); i++) {
             if((texto.charAt(i)).equals(letra.charAt(0))){
                 cantidad++;
-        }
+        }*/
         
         for (int i = 0; i < texto.length(); i++) {
             letraActual = Character.toString(texto.charAt(i));
             if(letraActual.equals(letraString)){
                 cantidad++;
             }
-        }*/
+        }
         
         
         
-        for (int i = 0; i < texto.length(); i++) {
+        /*for (int i = 0; i < texto.length(); i++) {
             if (texto.charAt(i)==letraChar) {
                 cantidad++;
             }
-        }
+        }*/
         
         System.out.println("La letra se repite "+cantidad+" veces en la cadena de texto ingresada.");
         
